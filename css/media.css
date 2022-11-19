@@ -24,6 +24,31 @@
 	}
 	
 	/*Header end*/
+
+	.banner{
+		padding: 70px 0 80px;
+	}
+	.taxi_indicator {
+	    top: 290px;
+	}
+	.caro_h1 {
+	    font-size: 40px;
+	}
+	.caro_p{
+		margin: 20px 0;
+		font-size: 16px;
+	}
+	.caro_btn{
+		padding: 0 15px;
+	}
+	.btn_common {
+	    width: 115px;
+	    height: 40px;
+	}
+	.btn_caro {
+	    margin-top: 30px;
+	    padding: 3px 0 0;
+	}
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -52,6 +77,33 @@
 	}
 	
 	/*Header end*/
+
+	/* Banner start */
+	.banner{
+		padding: 70px 0 80px;
+	}
+	.taxi_indicator {
+	    top: 312px;
+	}
+	.caro_h1 {
+	    font-size: 55px;
+	}
+	.caro_p{
+		margin: 25px 0;
+		font-size: 18px;
+	}
+	.caro_btn{
+		padding: 0 70px;
+	}
+	.btn_caro {
+	    margin-top: 40px;
+	}
+	.taxi_img {
+	    margin-top: 0;
+	    margin-bottom: 50px;
+	    padding: 0 70px;
+	}
+	/* Banner end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -80,6 +132,33 @@
 	}
 	
 	/*Header end*/
+
+	/* Banner start */
+	.banner{
+		padding: 80px 0 100px;
+	}
+	.taxi_indicator {
+	    top: 315px;
+	}
+	.caro_h1 {
+	    font-size: 65px;
+	}
+	.caro_p{
+		margin: 25px 0;
+		font-size: 18px;
+	}
+	.caro_btn{
+		padding: 0 70px;
+	}
+	.btn_caro {
+	    margin-top: 30px;
+	}
+	.taxi_img {
+	    margin-top: 0;
+	    margin-bottom: 50px;
+	    padding: 0 70px;
+	}
+	/* Banner end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -97,6 +176,18 @@
 	    margin-top: 0;
 	}
 	/*Header end*/
+
+	/*	Banner start*/
+	.taxi_indicator {
+	    top: 338px;
+	}
+	.caro_h1 {
+	    font-size: 65px;
+	}
+	.btn_caro {
+	    margin-top: 40px;
+	}
+	/*	Banner end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/

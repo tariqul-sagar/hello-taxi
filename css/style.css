@@ -18,6 +18,10 @@
 	src: url(../fonts/Poppins-Regular.otf);
 	font-family: Poppins-Regular;
 }
+@font-face{
+	src: url(../fonts/Sacramento-Regular.ttf);
+	font-family: Sacramento-Regular;
+}
 /*Font Family end*/
 
 /*Common CSS start*/
@@ -26,6 +30,16 @@ body{
 	font-size: 16px;	
 	font-weight: 400;
 	color: #000000;
+}
+.btn_common{
+	width: 130px;
+	height: 45px;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+}
+.btn_common:hover{
+	color: #000000 !important;
+	background-color: #ffd60e!important;
 }
 /*Common CSS end*/
 
@@ -94,9 +108,72 @@ header{
 /*Banner CSS start*/
 .banner{
 	padding: 100px 0 120px;
-	background-image: linear-gradient(rgba(43,47,54,0.90),rgba(43,47,54,0.90)), url(../images/banner.jpg);
+	background-image: linear-gradient(rgba(43,47,54,0.90),rgba(43,47,54,0.95)), url(../images/banner.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+.taxi_indicator{
+	top: 377px;
+}
+.taxi_indicator [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffd60e;
+}
+.taxi_inner{}
+.taxi_item{}
+.taxi_caro_content{
+	text-align: center;
+}
+.caro_h1{
+	margin: 0;
+	font-family: Sacramento-Regular;
+	font-size: 82px;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.caro_h1 span{
+	color: #ffd60e;
+}
+.caro_p{
+	margin: 25px 0 35px;
+	font-size: 20px;
+	color: #ffffff;
+}
+.caro_p span{
+	color: #ffd60e;
+}
+.caro_btn{
+	margin-top: 88px;
+}
+.btn_carousel{}
+.btn_caro{
+	margin-top: 60px;
+	padding: 4px 0 0;
+	color: #ffd60e;
+	border: 1px solid #ffd60e;
+}
+.caro_prev{
+	float: left;
+	color: #ffd60e;
+	border: 0;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.caro_next{
+	float: right;
+	color: #ffd60e;
+	border: 0;
+	background-color: transparent;
+	text-transform: uppercase;
+}
+.taxi_img{
+	margin-top: 45px;
+}
+.taxi_img img{
+	width: 100%;
 }
 /*Banner CSS end*/

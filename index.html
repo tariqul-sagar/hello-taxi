@@ -22,7 +22,7 @@
   <body>
     
     <!-- Header start -->
-    <header>
+    <header id="home">
       <div class="container">
         <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg t_navbar">
@@ -88,34 +88,74 @@
     <!-- Header end -->
 
     <!-- Banner start -->
-    <section class="banner" id="home">
+    <section class="banner">
       <div class="container">
-        <!-- Carousel start -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
+        <div class="row">
+          <!-- Left side -->
+          <div class="col-lg-6 order-lg-1 order-sm-2">
+            <!-- Carousel start -->
+            <div id="taxi_carousel_id" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators taxi_indicator">
+                <button type="button" data-bs-target="#taxi_carousel_id" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#taxi_carousel_id" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#taxi_carousel_id" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <!-- Inner start -->
+              <div class="carousel-inner taxi_inner">
+                
+                <div class="carousel-item active taxi_item">
+                  <div class="taxi_caro_content">
+                    <h1 class="caro_h1">Hello <span>Taxi</span></h1>
+                    <p class="caro_p">“Hello-Taxi” is the name of <span>Reliability</span>.</p>
+                    <div class="btn_carousel">
+                      <button type="button" class="btn btn_common btn_caro">Book Now</button>
+                    </div>
+                  </div>
+                </div>
 
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <div class="carousel-item taxi_item">
+                  <div class="taxi_caro_content">
+                    <h1 class="caro_h1">Hello <span>Taxi</span></h1>
+                    <p class="caro_p">“Hello-Taxi” the best service in <span>England</span>.</p>
+                    <div class="btn_carousel">
+                      <button type="button" class="btn btn_common btn_caro">Book Now</button>
+                    </div>
+                  </div>
+                </div>
 
-            </div>           
-            
+                <div class="carousel-item taxi_item">
+                  <div class="taxi_caro_content">
+                    <h1 class="caro_h1">Hello <span>Taxi</span></h1>
+                    <p class="caro_p">“Hello-Taxi” a guide for <span>Travellers</span>.</p>
+                    <div class="btn_carousel">
+                      <button type="button" class="btn btn_common btn_caro">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+
+                
+              </div>
+              <!-- Inner end -->
+
+              
+
+              <!-- Button start -->
+              <div class="caro_btn">
+                <button class="caro_prev" type="button" data-bs-target="#taxi_carousel_id" data-bs-slide="prev">Prev</button>
+                <button class="caro_next" type="button" data-bs-target="#taxi_carousel_id" data-bs-slide="next">Next</button>
+              </div>
+              <!-- Button end -->
+
+            </div>
+            <!-- Carousel end -->
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <!-- Rigft side -->
+          <div class="col-lg-6 order-lg-2 order-sm-1 d-none d-sm-block">
+            <div class="taxi_img">
+              <img class="img-fluid" src="images/taxi1.png" alt="HelloTaxi">
+            </div>
+          </div>
         </div>
-        <!-- Carousel end -->
       </div>
     </section>
     <!-- Banner end -->
