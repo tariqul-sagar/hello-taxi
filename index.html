@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Hello Taxi</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="images/png" href="images/hellotaxi.png" sizes="16x16">
+
+    <!-- Font Awesome File -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <!-- Fonts Link -->
+
+    <!-- Bootstrap CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Media Query File -->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+  </head>
+  <body>
+    
+    <!-- Header start -->
+    <header>
+      <div class="container">
+        <!-- Navbar start -->
+        <nav class="navbar navbar-expand-lg t_navbar">
+          <div class="container-fluid p-0">
+            <a class="navbar-brand" href="index.html">
+              <div class="t_logo">
+                <img src="images/hellotaxi.png" class="">
+              </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#taxi_nav_id" aria-controls="taxi_nav_id" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon taxi_icon"></span>
+            </button>
+            <!-- Menu start -->
+            <div class="collapse navbar-collapse menu" id="taxi_nav_id">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item t_item">
+                  <a class="nav-link t_link" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item t_item">
+                  <a class="nav-link t_link" href="#about">About</a>
+                </li>
+                <li class="nav-item t_item">
+                  <a class="nav-link t_link" href="#feature">Feature</a>
+                </li>
+                <li class="nav-item t_item">
+                  <a class="nav-link t_link" href="#services">Services</a>
+                </li>
+                <li class="nav-item t_item">
+                  <a class="nav-link t_link" href="#contact">Contact</a>
+                </li>      
+              </ul>
+              <!-- Search bar start -->
+              <div class="dropdown t_dropdown">
+                <a class="btn dropdown-toggle btn_dd" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <ul class="dropdown-menu dd_menu">
+                  <!-- Form start -->
+                  <form action="#">
+                    <div class="row g-0">
+                      <div class="col-11">
+                        <input type="text" class="form-control dd_input" placeholder="Search Here">
+                      </div>
+                      <div class="col-1">
+                        <button type="submit" class="btn dd_search">
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                  <!-- Form end -->
+                </ul>
+              </div>
+              <!-- Search bar end -->
+            </div>
+            <!-- Menu end -->
+          </div>
+        </nav>
+        <!-- Navbar end -->
+      </div>
+    </header>
+    <!-- Header end -->
+
+    <!-- Banner start -->
+    <section class="banner" id="home">
+      <div class="container">
+        <!-- Carousel start -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+
+                <h5>First slide label</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+
+            </div>           
+            
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel end -->
+      </div>
+    </section>
+    <!-- Banner end -->
+
+
+    <!-- Bootstrap JS File -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

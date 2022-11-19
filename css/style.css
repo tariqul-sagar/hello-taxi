@@ -1,0 +1,102 @@
+/*Font Family start*/
+@font-face{
+	src: url(../fonts/Poppins-Bold.otf);
+	font-family: Poppins-Bold;
+}
+
+@font-face{
+	src: url(../fonts/Poppins-SemiBold.otf);
+	font-family: Poppins-SemiBold;
+}
+
+@font-face{
+	src: url(../fonts/Poppins-Medium.otf);
+	font-family: Poppins-Medium;
+}
+
+@font-face{
+	src: url(../fonts/Poppins-Regular.otf);
+	font-family: Poppins-Regular;
+}
+/*Font Family end*/
+
+/*Common CSS start*/
+body{
+	font-family: Poppins-Regular;
+	font-size: 16px;	
+	font-weight: 400;
+	color: #000000;
+}
+/*Common CSS end*/
+
+/*Header CSS start*/
+header{
+	background-color: #000000;
+}
+.t_logo{
+	width: 75px;
+}
+.t_logo img{
+	width: 100%;
+}
+.menu{}
+.taxi_icon{
+	background-color: #ffd60e;
+}
+.t_item{}
+.t_link{
+	margin: 0 15px;
+	color: #ffd60e;
+	text-transform: uppercase;
+	border-radius: 8px;
+	transition: .33s ease-in-out;
+}
+.t_link:hover{
+	color: #000000;
+	background-color: #ffd60e;
+}
+.t_dropdown i{
+	font-size: 20px;
+	color: #ffd60e;
+}
+.btn_dd{}
+.btn_dd::after {
+    display: none;
+}
+.dd_menu{
+	width: 400px;
+	padding: 10px;
+	background-color: #ffd60e;
+	border-radius: 10px;
+}
+.dd_menu[data-bs-popper] {
+    top: 68px;
+    left: -370px;
+    margin-top: 0;
+}
+.dd_input{
+	border: 0;
+	background-color: #ffd60e;
+}
+.dd_input:focus {
+    color: #000000;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+.dd_search{}
+.dd_search i{
+	color: #000000;
+}
+/*Header CSS end*/
+
+/*Banner CSS start*/
+.banner{
+	padding: 100px 0 120px;
+	background-image: linear-gradient(rgba(43,47,54,0.90),rgba(43,47,54,0.90)), url(../images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*Banner CSS end*/
