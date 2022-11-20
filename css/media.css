@@ -25,6 +25,7 @@
 	
 	/*Header end*/
 
+	/* Banner start */
 	.banner{
 		padding: 70px 0 80px;
 	}
@@ -49,6 +50,35 @@
 	    margin-top: 30px;
 	    padding: 3px 0 0;
 	}
+	/* Banner end */
+
+
+	/* About start */
+	.common_h1 {
+	    font-size: 26px;
+	}
+	.common_shape {
+	    width: 18%;
+	}
+	.about{
+		padding: 70px 0;
+	}
+	.taxi_about_left{
+		margin-top: 40px;
+		padding: 0 20px;
+	}
+	.taxi_about_right {
+	    margin-top: 40px;
+	    padding: 0 10px;
+	    text-align: center;
+	}
+	.about_right_content{
+		font-size: 16px;
+	}
+	.about_p2 {
+	    margin: 25px 0;
+	}
+	/* About end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -104,6 +134,33 @@
 	    padding: 0 70px;
 	}
 	/* Banner end */
+
+	/* About start */
+	.common_h1 {
+	    font-size: 28px;
+	}
+	.common_shape {
+	    width: 14%;
+	}
+	.about{
+		padding: 70px 0;
+	}
+	.taxi_about_left{
+		margin-top: 45px;
+		padding: 0 50px;
+	}
+	.taxi_about_right {
+	    margin-top: 45px;
+	    padding: 0 40px;
+	    text-align: center;
+	}
+	.about_right_content{
+		font-size: 16px;
+	}
+	.about_p2 {
+	    margin: 25px 0;
+	}
+	/* About end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -159,6 +216,33 @@
 	    padding: 0 70px;
 	}
 	/* Banner end */
+
+	/* About start */
+	.common_h1 {
+	    font-size: 32px;
+	}
+	.common_shape {
+	    width: 12%;
+	}
+	.about{
+		padding: 80px 0;
+	}
+	.taxi_about_left{
+		margin-top: 55px;
+		padding: 0 70px;
+	}
+	.taxi_about_right {
+	    margin-top: 55px;
+	    padding: 0 70px;
+	    text-align: center;
+	}
+	.about_right_content{
+		font-size: 16px;
+	}
+	.about_p2 {
+	    margin: 25px 0;
+	}
+	/* About end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -187,7 +271,19 @@
 	.btn_caro {
 	    margin-top: 40px;
 	}
+	.taxi_img {
+	    margin-top: 25px;
+	}
 	/*	Banner end*/
+
+	/* About start */
+	.taxi_about_right {
+	    margin-top: 45px;
+	}
+	.about_right_content{
+		font-size: 16px;
+	}
+	/* About end */
 }
 
 /*Extra large devices (desktops, 992px and up)*/
@@ -208,4 +304,13 @@
 }
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1400px) { ... }
+@media (min-width: 1400px) {
+	/* About start */
+	.taxi_about_right{
+		margin-top: 70px;
+	}
+	.about_right_content{
+		font-size: 18px;
+	}
+	/* About end */
+}
