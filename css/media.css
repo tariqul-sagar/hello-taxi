@@ -79,6 +79,37 @@
 	    margin: 25px 0;
 	}
 	/* About end */
+
+	/* Service start */
+	.services{
+		padding: 70px 0;
+	}
+	.service_box{
+		margin-top: 40px;
+	}
+	.service_h2{
+		font-size: 16px;
+	}
+	.btn_service{
+		width: 110px;
+		height: 37px;
+	}
+	.service_overlay{
+		margin: 0 auto;
+		width: 99%;
+		
+	}
+	.service_over_h2{
+		margin-top: 15px;
+	}
+	.service_p{
+		padding: 0;
+		font-size: 15px;
+	}
+	.service_box:hover .service_overlay{
+		left: 0;
+	}
+	/* Service end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -161,6 +192,37 @@
 	    margin: 25px 0;
 	}
 	/* About end */
+
+	/* Service start */
+	.services{
+		padding: 70px 0;
+	}
+	.service_box{
+		margin-top: 45px;
+		padding: 0 50px;
+	}
+	.service_h2{
+		font-size: 18px;
+	}
+	.btn_service{
+		width: 110px;
+		height: 37px;
+	}
+	.service_overlay{
+		margin: 0 auto;
+		width: 81%;
+		
+	}
+	.service_over_h2{
+		margin-top: 80px;
+	}
+	.service_p{
+		padding: 0 10px;
+	}
+	.service_box:hover .service_overlay{
+		left: 0;
+	}
+	/* Service end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -243,6 +305,25 @@
 	    margin: 25px 0;
 	}
 	/* About end */
+
+	/* Service start */
+	.services{
+		padding: 80px 0;
+	}
+	.service_h2{
+		font-size: 18px;
+	}
+	.btn_service{
+		width: 110px;
+		height: 37px;
+	}
+	.service_over_h2{
+		margin-top: 40px;
+	}
+	.service_p{
+		padding: 0 10px;
+	}
+	/* Service end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -284,6 +365,22 @@
 		font-size: 16px;
 	}
 	/* About end */
+
+	/* Service start */
+	.service_h2{
+		font-size: 18px;
+	}
+	.btn_service{
+		width: 110px;
+		height: 37px;
+	}
+	.service_over_h2{
+		margin-top: 50px;
+	}
+	.service_p{
+		padding: 0 10px;
+	}
+	/* Service end */
 }
 
 /*Extra large devices (desktops, 992px and up)*/
