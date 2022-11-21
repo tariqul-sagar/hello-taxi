@@ -110,6 +110,33 @@
 		left: 0;
 	}
 	/* Service end */
+
+	/* Feature start */
+	.feature{
+		padding: 70px 0;
+	}
+	.feature_content{
+		margin-top: 40px;
+	}
+	.feature_icon{
+		margin: 10px 0;
+		font-size: 38px;
+	}
+	.feature_h2{
+		margin: 0 0 20px;
+		font-size: 22px;
+	}
+	.feature_p{
+		padding: 0;
+		font-size: 15px;
+	}
+	.feature_p1{
+		margin: 32px 0;
+	}
+	.feature_btn{
+		margin: 30px 0 35px;
+	}
+	/* Feature end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -223,6 +250,35 @@
 		left: 0;
 	}
 	/* Service end */
+
+	/* Feature start */
+	.feature{
+		padding: 70px 0;
+	}
+	.feature_wrapper{
+		padding: 0 50px;
+	}
+	.feature_content{
+		margin-top: 45px;
+	}
+	.feature_icon{
+		margin: 10px 0;
+		font-size: 46px;
+	}
+	.feature_h2{
+		margin: 0 0 20px;
+		font-size: 26px;
+	}
+	.feature_p{
+		padding: 0 24px;
+	}
+	.feature_p1{
+		margin: 32px 0;
+	}
+	.feature_btn{
+		margin: 30px 0 35px;
+	}
+	/* Feature end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -324,6 +380,33 @@
 		padding: 0 10px;
 	}
 	/* Service end */
+
+	/* Feature start */
+	.feature{
+		padding: 80px 0;
+	}
+	.feature_content{
+		margin-top: 45px;
+		padding: 0;
+	}
+	.feature_icon{
+		margin: 10px 0;
+		font-size: 36px;
+	}
+	.feature_h2{
+		margin: 0 0 20px;
+		font-size: 21px;
+	}
+	.feature_p{
+		padding: 0;
+	}
+	.feature_p1{
+		margin: 50px 0;
+	}
+	.feature_btn{
+		margin: 30px 0 35px;
+	}
+	/* Feature end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -410,4 +493,17 @@
 		font-size: 18px;
 	}
 	/* About end */
+
+	/* Feature start */
+	.feature_h2{
+		margin: 0 0 20px;
+		font-size: 28px;
+	}
+	.feature_p{
+		padding: 0 30px;
+	}
+	.feature_btn{
+		margin: 30px 0 35px;
+	}
+	/* Feature end */
 }
