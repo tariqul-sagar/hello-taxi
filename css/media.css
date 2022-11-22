@@ -137,6 +137,26 @@
 		margin: 30px 0 35px;
 	}
 	/* Feature end */
+
+	/* Contact start */
+	.contact{
+		padding: 70px 0 250px;
+	}
+	.contact_left{
+		margin: 35px 0 0;
+	}
+	.contact_right{
+		margin: 35px 0 0;
+		padding: 0 5px;
+	}
+	.contact_btn{
+		margin: 24px 0;
+	}
+	.btn_contact{
+		width: 110px;
+		height: 35px;
+	}
+	/* Contact end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -279,6 +299,26 @@
 		margin: 30px 0 35px;
 	}
 	/* Feature end */
+
+	/* Contact start */
+	.contact{
+		padding: 70px 0 250px;
+	}
+	.contact_left{
+		margin: 45px 35px 0;
+	}
+	.contact_right{
+		margin: 45px 35px 0;
+		padding: 0 20px;
+	}
+	.contact_btn{
+		margin: 24px 0;
+	}
+	.btn_contact{
+		width: 110px;
+		height: 35px;
+	}
+	/* Contact end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -407,6 +447,19 @@
 		margin: 30px 0 35px;
 	}
 	/* Feature end */
+
+	/* Contact start */
+	.contact{
+		padding: 80px 0 250px;
+	}
+	.contact_btn{
+		margin: 24px 0;
+	}
+	.btn_contact{
+		width: 110px;
+		height: 35px;
+	}
+	/* Contact end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -481,6 +534,12 @@
 	    margin-top: 0;
 	}
 	/*Header end*/
+
+	/* Feature start */
+	.feature_p1{
+		margin: 32px 0;
+	}
+	/* Feature end */
 }
 
 /*Extra extra large devices (large desktops, 1200px and up)*/
@@ -501,6 +560,9 @@
 	}
 	.feature_p{
 		padding: 0 30px;
+	}
+	.feature_p1{
+		margin: 42px 0;
 	}
 	.feature_btn{
 		margin: 30px 0 35px;
