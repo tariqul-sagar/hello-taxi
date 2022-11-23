@@ -115,6 +115,9 @@
 	.feature{
 		padding: 70px 0;
 	}
+	.feature_wrapper {
+	    padding: 0 12px;
+	}
 	.feature_content{
 		margin-top: 40px;
 	}
@@ -159,11 +162,9 @@
 	/* Contact end */
 
 	/* Contact float start */
-	.contact_float_wrapper{
-		width: 92%;
-	}
 	.contact_float_content{
 		margin: 0 auto;
+		padding: 25px 0;
 		width: 250px;
 		height: 300px;
 		text-align: center;
@@ -180,6 +181,9 @@
 	/* Contact float end */
 
 	/* Footer start */
+	footer{
+		margin-top: -590px;
+	}
 	.footer_content{
 		margin-top: 520px;
 	}
@@ -365,9 +369,6 @@
 	/* Contact end */
 
 	/* Contact float start */
-	.contact_float_wrapper{
-		width: 92%;
-	}
 	.contact_float_content{
 		margin: 0 auto;
 		text-align: center;
@@ -384,6 +385,9 @@
 	/* Contact float end */
 
 	/* Footer start */
+	footer{
+		margin-top: -502px;
+	}
 	.footer_content3{
 		margin-top: 470px;
 	}
@@ -537,9 +541,6 @@
 	/* Contact end */
 
 	/* Contact float start */
-	.contact_float_wrapper{
-		width: 93%;
-	}
 	.contact_float_content{
 		margin: 0 auto;
 	}
@@ -559,6 +560,9 @@
 	/* Contact float end */
 
 	/* Footer start */
+	footer{
+		margin-top: -414px;
+	}
 	.footer_content3{
 		margin-top: 350px;
 	}
@@ -636,6 +640,9 @@
 	/* Contact float end */
 
 	/* Footer start */
+	footer{
+		margin-top: -180px;
+	}
 	.footer_content{
 		margin-top: 120px;
 		font-size: 15px;
@@ -696,9 +703,4 @@
 	}
 	/* Feature end */
 
-	/* Contact float start */
-	.contact_float_wrapper{
-		width: 91%;
-	}
-	/* Contact float end */
 }
