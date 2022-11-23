@@ -157,6 +157,18 @@
 		height: 35px;
 	}
 	/* Contact end */
+
+	/* Contact float start */
+	.contact_float_content{
+		margin: 0 auto;
+		width: 250px;
+		height: 300px;
+		text-align: center;
+	}
+	.contact_float_p {
+	    padding: 0;
+	}
+	/* Contact float end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -319,6 +331,16 @@
 		height: 35px;
 	}
 	/* Contact end */
+
+	/* Contact float start */
+	.contact_float_content{
+		margin: 0 auto;
+		text-align: center;
+	}
+	.contact_float_p {
+	    padding: 0;
+	}
+	/* Contact float end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -460,6 +482,25 @@
 		height: 35px;
 	}
 	/* Contact end */
+
+	/* Contact float start */
+	.contact_float_content{
+		margin: 0 auto;
+	}
+	.float_content2{
+		margin: 0 25px;
+		width: 300px;
+	}
+	.contact_float_h2{
+		text-align: center;
+	}
+	.contact_float_p {
+	    padding: 0;
+	}
+	.float_content2:hover{
+		margin: 0 25px;
+	}
+	/* Contact float end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -517,6 +558,16 @@
 		padding: 0 10px;
 	}
 	/* Service end */
+
+	/* Contact float start */
+	.contact_float_content{
+		width: 275px;
+		height: 290px;
+	}
+	.contact_float_p {
+	    padding: 0 5px;
+	}
+	/* Contact float end */
 }
 
 /*Extra large devices (desktops, 992px and up)*/

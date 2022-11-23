@@ -354,7 +354,6 @@ header{
 /*Contact CSS start*/
 .contact{
 	padding: 100px 0 250px;
-	position: relative;
 	background-image: linear-gradient(rgba(43,47,54,0.65),rgba(43,47,54,0.65)), url(../images/contact_bg.jpg);
 	background-position: center;
 	background-size: cover;
@@ -365,7 +364,7 @@ header{
 }
 .map iframe{
 	width: 100%;
-	height: 375px;
+	height: 385px;
 	border: 2px solid #ffd60e;
 }
 .contact_right{
@@ -375,7 +374,7 @@ header{
 	border-radius: 10px;
 }
 .contact_h2{
-	margin: 0;
+	margin: 10px 0 0;
 	font-family: Poppins-Medium;
 	font-size: 24px;
 	font-weight: 500;
@@ -413,5 +412,53 @@ header{
 
 /*Contact float CSS start*/
 .contact_float{}
+.contact_float_wrapper{
+	margin-top: -180px;
+	padding: 35px 0;
+	background-color: #ffd60e;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 5px 8px 0px rgba(255,214,14,1);
+	-moz-box-shadow: 0px 5px 8px 0px rgba(255,214,14,1);
+	box-shadow: 0px 5px 8px 0px rgba(255,214,14,1);
+}
+.contact_float_content{
+	margin: 0 10px;
+	padding: 25px 15px;
+	width: 336px;
+	height: 262px;
+	border-radius: 20px;
+	transition: .33s ease-in-out;
+	cursor: pointer;
+}
+.contact_float_h2{
+	margin: 0 0 20px;
+	font-family: Poppins-SemiBold;
+	font-size: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.contact_float_p{
+	padding: 0 15px;
+	text-align: center;
+}
+.contact_float_content ul{}
+.contact_float_content ul li{
+	margin: 0 0 10px;
+}
+.contact_float_content ul li span{
+	padding-left: 10px;
+}
+.contact_icon i{
+	width: 20px;
+	font-size: 22px;
+	text-align: center;
+	transition: .6s;
+}
+.contact_icon i:hover{
+	transform: scale(1.1);
+}
+.contact_float_content:hover{
+	background-color: #ffffff;
+}
 /*Contact float CSS end*/
 
