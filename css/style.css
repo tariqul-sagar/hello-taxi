@@ -497,6 +497,7 @@ footer{
 	text-align: center;
 	border: 1px solid #ffffff;
 	border-radius: 50%;
+	transition: .33s ease-in-out;
 }
 .footer_content a:hover{
 	color: #ffd60e;
