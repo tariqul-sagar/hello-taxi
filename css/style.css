@@ -354,10 +354,11 @@ header{
 /*Contact CSS start*/
 .contact{
 	padding: 100px 0 250px;
+	position: relative;
 	background-image: linear-gradient(rgba(43,47,54,0.65),rgba(43,47,54,0.65)), url(../images/contact_bg.jpg);
 	background-position: center;
 	background-size: cover;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 }
 .contact_left{
 	margin-top: 50px;
@@ -415,6 +416,7 @@ header{
 .contact_float_wrapper{
 	margin-top: -180px;
 	padding: 35px 0;
+	position: absolute;
 	background-color: #ffd60e;
 	border-radius: 20px;
 	-webkit-box-shadow: 0px 5px 8px 0px rgba(255,214,14,1);
@@ -461,4 +463,47 @@ header{
 	background-color: #ffffff;
 }
 /*Contact float CSS end*/
+
+/*Footer CSS start*/
+footer{
+	padding: 100px 0 15px;
+	background-color: #000000;
+}
+.footer_content{
+	margin-top: 100px;
+	color: #ffffff;
+}
+.footer_content2{
+	text-align: right;
+}
+.footer_content p{
+	margin: 0;
+}
+.footer_content ul li{
+	margin-right: 0;
+}
+.footer_content a{
+	font-family: Poppins-Regular;
+	font-size: 16px;	
+	font-weight: 400;
+	color: #ffffff;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+.footer_content i{
+	padding: 6px 0 0;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+}
+.footer_content a:hover{
+	color: #ffd60e;
+}
+.footer_content i:hover{
+	color: #ffd60e;
+	border: 1px solid #ffd60e;
+}
+/*Footer CSS end*/
 

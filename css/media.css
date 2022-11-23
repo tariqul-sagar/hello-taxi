@@ -159,16 +159,48 @@
 	/* Contact end */
 
 	/* Contact float start */
+	.contact_float_wrapper{
+		width: 92%;
+	}
 	.contact_float_content{
 		margin: 0 auto;
 		width: 250px;
 		height: 300px;
 		text-align: center;
 	}
+	.float_content2{
+		height: 230px;
+	}
+	.float_content3{
+		height: 170px;
+	}
 	.contact_float_p {
 	    padding: 0;
 	}
 	/* Contact float end */
+
+	/* Footer start */
+	.footer_content{
+		margin-top: 520px;
+	}
+	.footer_content2{
+		margin: 0;
+	}
+	.footer_content3{
+		text-align: center;
+	}
+	.footer_content4{
+		margin: -10px 0 15px;
+	}
+	.footer_content p a{
+		color: #ffd60e;
+	}
+	.footer_content i{
+		padding: 10px 0 0;
+		width: 40px;
+		height: 40px;
+	}
+	/* Footer end */
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -333,14 +365,35 @@
 	/* Contact end */
 
 	/* Contact float start */
+	.contact_float_wrapper{
+		width: 92%;
+	}
 	.contact_float_content{
 		margin: 0 auto;
 		text-align: center;
+	}
+	.float_content2{
+		height: 190px;
+	}
+	.float_content3{
+		height: 160px;
 	}
 	.contact_float_p {
 	    padding: 0;
 	}
 	/* Contact float end */
+
+	/* Footer start */
+	.footer_content3{
+		margin-top: 470px;
+	}
+	.footer_content4{
+		margin: 0 0 10px;
+	}
+	.footer_content p a{
+		color: #ffd60e;
+	}
+	/* Footer end */
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -484,6 +537,9 @@
 	/* Contact end */
 
 	/* Contact float start */
+	.contact_float_wrapper{
+		width: 93%;
+	}
 	.contact_float_content{
 		margin: 0 auto;
 	}
@@ -501,6 +557,16 @@
 		margin: 0 25px;
 	}
 	/* Contact float end */
+
+	/* Footer start */
+	.footer_content3{
+		margin-top: 350px;
+	}
+	.footer_content4{
+		margin: 0 0 10px;
+	}
+	.footer_content a{}
+	/* Footer end */
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -568,6 +634,16 @@
 	    padding: 0 5px;
 	}
 	/* Contact float end */
+
+	/* Footer start */
+	.footer_content{
+		margin-top: 120px;
+		font-size: 15px;
+	}
+	.footer_content a{
+		font-size: 15px;
+	}
+	/* Footer end */
 }
 
 /*Extra large devices (desktops, 992px and up)*/
@@ -619,4 +695,10 @@
 		margin: 30px 0 35px;
 	}
 	/* Feature end */
+
+	/* Contact float start */
+	.contact_float_wrapper{
+		width: 91%;
+	}
+	/* Contact float end */
 }
